@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Proyecto Alura, Javier Ordoñez</title>
+  </head>
+  <header>
+    <img src="/image.png" alt="logo de alura geek" />
+  </header>
+  <body>
+    <main class="principal-container">
+      <section class="product-container">
+        <h1>Mis productos:</h1>
+        <ul class="product-list">
+
+        </ul>
+      </section>
+      <section class="form-container">
+        <h1>Agregar <br />producto:</h1>
+        <form class="form-container-input">
+          <input type="text" name="name" id="product-name" placeholder="nombre..." />
+          <input type="number" name="price" id="product-price" placeholder="precio..." />
+          <input type="text" name="img" id="product-image" placeholder="imagen..." />
+          <div class="button-container">
+            <button type="submit" id="enviar">Enviar</button>
+            <button type="reset">Limpiar</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <script type="module" src="/main.js"></script>
+    <script type="module" src="js/conexionGET.js"></script>
+    <script type="module" src="js/conexionPOST.js"></script>
+    <script type="module" src="js/conexionDELETE.js"></script>
+  </body>
+</html>
