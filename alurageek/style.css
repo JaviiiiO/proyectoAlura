@@ -184,3 +184,20 @@ header img{
   }
   
 }
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #5300C8;
+  color: white;
+  margin-top: 32px;
+  height: 150px;
+  padding: 18px;
+}
+
+.footer img:last-child {
+  width: 25px;
+  height: 25px;
+}
